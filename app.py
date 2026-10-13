@@ -8,7 +8,8 @@ import re
 from io import BytesIO
 
 import streamlit as st
-from docx import Document
+File "/mount/src/ats-resume-checker/app.py", line 11, in <module>
+    from docx import Document
 from google import genai
 from google.genai import types
 from pypdf import PdfReader
