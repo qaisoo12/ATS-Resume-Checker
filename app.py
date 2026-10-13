@@ -8,13 +8,13 @@ import re
 from io import BytesIO
 
 import streamlit as st
-File "/mount/src/ats-resume-checker/app.py", line 11, in <module>
+ File "/mount/src/ats-resume-checker/app.py"
     from docx import Document
 from google import genai
 from google.genai import types
 from pypdf import PdfReader
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-3.5-flash"
 MAX_RESUME_CHARS = 20000
 MAX_JD_CHARS = 8000
 
